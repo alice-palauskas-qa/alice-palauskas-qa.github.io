@@ -1,0 +1,143 @@
+/* Медиа запрос: для экранов с шириной до 1140px */
+@media (max-width: 1140px) {
+	.card {
+		width: calc(33% - 5px);
+	}
+
+	.footer {
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+
+	.footer_row {
+		flex-direction: column-reverse;
+		align-items: center;
+		text-align: center;
+	}
+
+	.footer_col {
+		margin-bottom: 20px;
+	}
+
+	.footer_col:first-child {
+		margin-bottom: 0;
+	}
+}
+
+/* Медиа запрос: для экранов с шириной до 810px */
+@media (max-width: 810px) {
+	.header__title {
+		font-size: 27px;
+	}
+
+	.header__subtitle {
+		font-size: 10px;
+	}
+
+	.header__subtitle2 {
+		font-size: 10px;
+	}
+
+	.header__subtitle3 {
+		font-size: 10px;
+	}
+
+	.footer_arrow {
+		font-size: 14px;
+	}
+
+	.portfolio {
+		padding-top: 15px;
+		padding-bottom: 28px;
+	}	
+
+	.portfolio_header {
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.card {
+		padding: 5px;
+		width: 30%;
+		height: 135px;
+	}
+
+	.card_img {
+		margin-bottom: 3px;
+		width: 20px;
+		height: 20px;
+	}
+
+	.card_title {
+		margin: 0;
+		margin-bottom: 5px;
+		font-weight: 600;
+		font-size: 10px;
+		line-height: 12px;
+		color: black;
+		text-align: justify-all;
+	}
+
+	.card p {
+		margin: 0;
+		font-size: 10px;
+	}
+
+	.footer_copyright_name {
+		font-size: 18px;
+		margin-bottom: 5px;
+		padding-left: 0;
+	}
+
+	.footer_copyright p {
+		font-size: 14px;
+		margin-bottom: 5px;
+		padding-left: 0;
+
+	}
+
+	.footer_icons p {
+		font-size: 14px;
+	}
+
+	.footer_button {
+    display: inline-block;
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    border: 5px solid #ffffff;
+    border-radius: 80px;
+
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 44px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+	.footer_arrow {
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 5px;
+		font-family: Montserrat;
+		text-align: center;
+
+		width: 177px;
+		height: 37px;
+		top: 322px;
+		left: 720px;
+		padding: 15px 29px 15px 29px;
+		gap: 10px;
+		border-radius: 40px;
+		border: 1px solid #ffffff;
+	}
+
+	.header_arrow {
+		margin-bottom: 225px;
+	}
+
+}
